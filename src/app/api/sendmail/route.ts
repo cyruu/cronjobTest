@@ -1,4 +1,4 @@
-import { sendCronTestMail } from "@/nodemailer/nodemailer";
+import { sendCronTestMail } from "@/helpers/sendmail";
 import { NextResponse } from "next/server";
 
 export async function GET() {
